@@ -1,5 +1,8 @@
 Hi Rafal,
 
-Palindrome_check is a program that tests whether the entered word is a palindrome by using the len() function
+in this case, recursion caused problems and wrote the program differently.
 
-The result of the program is a boolean value (True or False), which determines whether the entered text is a palindrome
+I also have some questions that we can expand on at the Wednesday meeting.
+
+Regards
+Jagoda
