@@ -4,15 +4,14 @@ logging.basicConfig(level=logging.INFO)
 
 
 def palindrome_check(word):
-    input_without_spaces = word.lower().replace(" ", "")
-    if not input_without_spaces.isalnum():
+    if not word.isalnum():
         logging.info("Provided input: %s contains non-alphanumeric characters. Skipping non-alphanumeric characters",
                      word)
 
     prepared_input = ""
-    for character in range(len(input_without_spaces)):
-        if input_without_spaces[character].isalnum():
-            prepared_input += input_without_spaces[character]
+    for character in range(len(word)):
+        if word[character].isalnum():
+            prepared_input += word[character]
 
     return prepared_input == prepared_input[::-1]
 
